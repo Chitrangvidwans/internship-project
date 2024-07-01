@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+
+
+}
+header{
+  z-index: 10001 !important;
+}
+
+.btn-primary {
+
+ @apply bg-brandPrimary text-white hover:bg-neutralDGrey px-6 py-2  rounded-md
+        transition-all duration-300 hover:translate-y-4
+}
+
+.card {
+  width: 300px;
+  height: 254px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+ }
+.h1{ @apply
+ text-4xl text-neutralDGrey font-semibold mb-2
+}
