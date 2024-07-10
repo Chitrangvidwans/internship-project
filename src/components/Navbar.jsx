@@ -31,10 +31,7 @@ const Navbar = () => {
   const navItems = [
     {link: "Home", path: "home"},
     {link: "Featured companies", path: "featured"},
-    {link: "Investors", path: "investors"},
-    {link: "Contact", path: "contact"},
-    {link: "Gallery", path: "gallery"},
-
+    {link: "Contact Us", path: "contact"},
 
   ];
 

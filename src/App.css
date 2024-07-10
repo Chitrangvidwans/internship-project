@@ -24,5 +24,16 @@ header{
                 -20px -20px 60px #ffffff;
  }
 .h1{ @apply
- text-4xl text-neutralDGrey font-semibold mb-2
+ text-5xl text-neutralDGrey font-semibold mb-2
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.slick-slide >div{
+  margin: 0 10px ;
 }

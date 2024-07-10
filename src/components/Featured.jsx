@@ -2,8 +2,8 @@ import { React } from "react";
 
 
 const Featured = () => {
-  return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto">
+
+<div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto">
       <div className="text-center my-8">
 
       
@@ -13,7 +13,8 @@ const Featured = () => {
         </div>
     </div>
     </div>
-  );
 };
 
-export default Featured;
+export default Featured; 
+
+
